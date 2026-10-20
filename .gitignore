@@ -1,0 +1,36 @@
+# === Entorno virtual ===
+venv/
+.venv/
+env/
+
+# === Variables de entorno (pueden contener secretos) ===
+.env
+
+# === Archivos generados por el programa ===
+output/*.mp3
+
+# === Caché de Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# === Datos descargados por NLTK ===
+nltk_data/
+
+# === macOS ===
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# === Editores e IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Cobertura de pruebas ===
+.coverage
+htmlcov/
+.pytest_cache/

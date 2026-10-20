@@ -1,0 +1,12 @@
+# Dependencias del proyecto: Convertidor de Artículos Web a MP3
+# Instalar con: pip install -r requirements.txt
+
+newspaper4k>=0.9.3       # Extracción de contenido de artículos web
+lxml_html_clean>=0.4.0   # Módulo de limpieza HTML requerido por las versiones modernas de lxml
+nltk>=3.9.0              # Procesamiento de lenguaje natural (tokenización de frases)
+gTTS>=2.5.0              # Conversión de texto a voz (Google Text-to-Speech)
+imageio-ffmpeg>=0.5.0    # Binarios portables de ffmpeg para unir audio MP3 de forma compatible
+python-dotenv>=1.0.0     # Carga de variables de entorno desde archivo .env
+pydub>=0.25.0            # Manipulación y unión de fragmentos de audio
+
+
